@@ -16,8 +16,9 @@
       <div class="navbar yamm navbar-default">
         <div class="container">
           <div class="navbar-header">
-            <button type="button" data-toggle="collapse" data-target="#navbar-collapse-1" class="navbar-toggle"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
-            <a href="index.html" class="navbar-brand logo"></a> </div>
+            <button type="button" data-toggle="collapse" data-target="#navbar-collapse-1" class="navbar-toggle"><span class="icon-bar"></span><span class="icon-bar"></span>
+            <span class="icon-bar"></span></button>
+            <a href="<?php echo get_home_url() ?>" class="navbar-brand logo"></a> </div>
           <div class="cart pull-right" style="float:right;" >
             <button class="dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <span class="icon-basket"></span><span class="cart-info">2</span> </button>
             <div class="dropdown-menu">
@@ -57,7 +58,7 @@
                   </ul>
                 </li>
                 <li class="yamm-fw"><a href="shop.html">Shop</a></li>
-<li class="dropdown"><a href="about.html" class="dropdown-toggle">Pages <i class="fa fa-angle-down"></i></a>
+                <li class="dropdown"><a href="about.html" class="dropdown-toggle">Pages <i class="fa fa-angle-down"></i></a>
                   <ul role="menu" class="dropdown-menu">
                     <li><a href="about.html">About Us</a></li>
                     <li><a href="services.html">Services</a></li>
@@ -103,4 +104,4 @@
       </div>
     </div>
 </div>
-  </header>
+</header>

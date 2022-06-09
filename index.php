@@ -403,7 +403,5 @@
         </a> </div>
     </div>
   </div>
-  <!-- end features section 6 -->
-
 
 <?php get_footer(); ?>
